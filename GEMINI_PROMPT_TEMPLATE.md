@@ -1,13 +1,13 @@
-# 🎨 Template de Prompts para Gemini - LatamFi
+# 🎨 Template de Prompts para Gemini - LANA Celo
 
 ## 📋 Prompt Inicial Completo
 
 ```
-Diseña una landing page moderna y profesional para LatamFi, una plataforma de 
+Diseña una landing page moderna y profesional para LANA Celo, una plataforma de 
 inclusión financiera para América Latina construida en Celo blockchain.
 
 CONTEXTO DEL PROYECTO:
-- Nombre: LatamFi
+- Nombre: LANA Celo
 - Propósito: Remesas, servicios de pago y microfinanzas
 - Blockchain: Celo
 - Audiencia: Usuarios en América Latina
@@ -29,7 +29,7 @@ PALETA DE COLORES BASE:
 ELEMENTOS PRINCIPALES:
 
 1. LOGO:
-   - Diseño moderno para "LatamFi"
+   - Diseño moderno para "LANA Celo"
    - NO usar rayo/lightning bolt (era del proyecto anterior)
    - Representar: crecimiento, inclusión financiera, LATAM
    - Colores: Verde Celo como principal
@@ -90,10 +90,10 @@ REQUISITOS ESPECÍFICOS:
 ## 🎯 Prompt para Logo Específico
 
 ```
-Diseña un logo moderno para LatamFi con las siguientes especificaciones:
+Diseña un logo moderno para LANA Celo con las siguientes especificaciones:
 
 CONTEXTO:
-- Nombre: LatamFi
+- Nombre: LANA Celo
 - Plataforma de inclusión financiera para LATAM
 - Construida en Celo blockchain
 - Enfoque: Remesas, servicios, microfinanzas
@@ -107,7 +107,7 @@ REQUISITOS:
 
 VARIANTES NECESARIAS:
 1. Icono solo (para favicon, etc.)
-2. Texto solo (solo "LatamFi")
+2. Texto solo (solo "LANA Celo")
 3. Completo (icono + texto)
 
 PROPORCIONA:
@@ -121,7 +121,7 @@ PROPORCIONA:
 ## 🎨 Prompt para Hero Section
 
 ```
-Diseña el Hero Section para LatamFi con estas especificaciones:
+Diseña el Hero Section para LANA Celo con estas especificaciones:
 
 CONTEXTO:
 - Primera impresión de la landing page
@@ -129,7 +129,7 @@ CONTEXTO:
 - Debe ser impactante y claro
 
 ELEMENTOS:
-1. Logo LatamFi (centrado arriba)
+1. Logo LANA Celo (centrado arriba)
 2. Tagline: "¡Envía, Paga, Crece!" - CRÍTICO: Debe ser perfectamente visible
 3. Descripción: "Remesas, Servicios, Crédito. Comisiones Ultra Bajos."
 4. Botón CTA: "Conectar Wallet" (verde #35D07F)
@@ -154,10 +154,10 @@ PROPORCIONA:
 ## 🎨 Prompt para Secciones Específicas
 
 ```
-Diseña la sección [NOMBRE DE SECCIÓN] para LatamFi:
+Diseña la sección [NOMBRE DE SECCIÓN] para LANA Celo:
 
 CONTEXTO:
-- Parte de la landing page de LatamFi
+- Parte de la landing page de LANA Celo
 - Fondo oscuro (#0A1628)
 - Estilo consistente con Hero Section
 
@@ -181,7 +181,7 @@ PROPORCIONA:
 ## 🔧 Prompt para Ajustes Específicos
 
 ```
-Ajusta el [ELEMENTO] del diseño de LatamFi con estos cambios:
+Ajusta el [ELEMENTO] del diseño de LANA Celo con estos cambios:
 
 ELEMENTO ACTUAL:
 - [Describir elemento actual]
@@ -207,7 +207,7 @@ PROPORCIONA:
 ## 📐 Prompt para Especificaciones Técnicas
 
 ```
-Proporciona las especificaciones técnicas exactas para el diseño de LatamFi:
+Proporciona las especificaciones técnicas exactas para el diseño de LANA Celo:
 
 INFORMACIÓN NECESARIA:
 

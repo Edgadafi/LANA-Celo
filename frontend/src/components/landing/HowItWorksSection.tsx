@@ -44,7 +44,7 @@ export function HowItWorksSection() {
             Cómo Funciona
           </h2>
           <p className="text-base md:text-body text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            Comienza a usar LatamFi en solo 3 pasos simples
+            Comienza a usar LANA.celo en solo 3 pasos simples
           </p>
         </div>
 

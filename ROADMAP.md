@@ -1,4 +1,4 @@
-# 🛣️ LatamFi Development Roadmap
+# 🛣️ LANA Celo Development Roadmap
 
 > **Timeline:** November 2024 - June 2026  
 > **Goal:** Launch mainnet-ready platform for financial inclusion in LATAM

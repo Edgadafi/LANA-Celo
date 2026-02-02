@@ -59,7 +59,7 @@ export function Logo({
             showGlow && "animate-logo-glow"
           )}
         >
-          {/* LatamFi Logo - "L" with Growth Arrow (Gemini Design) */}
+          {/* LANA.celo Logo - "L" with Growth Arrow */}
           <svg
             className={cn(
               "w-full h-full",
@@ -102,7 +102,7 @@ export function Logo({
             animated && "animate-logo-fade-in"
           )}
         >
-          LatamFi
+          LANA.celo
         </span>
       )}
     </div>

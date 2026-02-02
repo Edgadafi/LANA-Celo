@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Script para crear y desplegar LatamFi en Vercel
-# Uso: ./deploy-latamfi.sh
+# Script para crear y desplegar LANA Celo en Vercel
+# Uso: ./deploy-lana-celo.sh
 
 set -e
 
-echo "🚀 LatamFi - Deployment Script para Vercel"
+echo "🚀 LANA Celo - Deployment Script para Vercel"
 echo "=========================================="
 echo ""
 
@@ -57,14 +57,14 @@ if [ ! -d ".vercel" ]; then
     echo "📦 Creando nuevo proyecto en Vercel..."
     echo ""
     echo "Configuración:"
-    echo "  - Nombre del proyecto: LatamFi"
+    echo "  - Nombre del proyecto: LANA Celo"
     echo "  - Root Directory: frontend"
     echo "  - Framework: Next.js"
     echo ""
     
     # Crear proyecto con configuración
     vercel --yes \
-        --name="latamfi" \
+        --name="lana-celo" \
         --scope=$(vercel whoami) \
         --root-directory="frontend"
     
@@ -81,7 +81,7 @@ echo ""
 echo "Por favor, agrega estas variables en Vercel Dashboard:"
 echo "  Settings → Environment Variables"
 echo ""
-echo "1. NEXT_PUBLIC_APP_NAME=LatamFi"
+echo "1. NEXT_PUBLIC_APP_NAME=LANA.celo"
 echo "2. NEXT_PUBLIC_CELO_RPC_URL=https://forno.celo.org"
 echo "3. NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=<tu-project-id>"
 echo ""
@@ -113,5 +113,5 @@ fi
 echo ""
 echo -e "${GREEN}✨ ¡Listo!${NC}"
 echo ""
-echo "📚 Ver guía completa en: VERCEL_DEPLOY_LATAMFI.md"
+echo "📚 Ver guía completa en: VERCEL_DEPLOY_LANA_CELO.md"
 

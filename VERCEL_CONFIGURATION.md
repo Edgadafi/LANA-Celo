@@ -1,4 +1,4 @@
-# ⚙️ Configuración de Vercel para LatamFi
+# ⚙️ Configuración de Vercel para LANA Celo
 
 ## Problema Actual
 

@@ -1,4 +1,4 @@
-# ✅ Configuración Final de Vercel para LatamFi
+# ✅ Configuración Final de Vercel para LANA Celo
 
 ## Configuración Correcta
 
@@ -6,7 +6,7 @@
 
 **CRÍTICO**: Debe estar configurado exactamente como `frontend`
 
-1. Ve a: https://vercel.com/edgadafis-projects/latamfi/settings
+1. Ve a: https://vercel.com/edgadafis-projects/lana-celo/settings
 2. En la sección **General** → **Root Directory**
 3. Debe decir exactamente: `frontend`
    - Sin espacios

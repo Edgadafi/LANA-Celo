@@ -18,7 +18,7 @@ export function Footer() {
                 <path d="M20 20L24 16L28 20" stroke="#35D07F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M24 16V26" stroke="#35D07F" strokeWidth="2" strokeLinecap="round"/>
               </svg>
-              <span className="text-xl font-bold text-white tracking-tight">LatamFi</span>
+              <span className="text-xl font-bold text-white tracking-tight">LANA.celo</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               Impulsando la inclusión financiera en América Latina a través de tecnología blockchain accesible y eficiente.
@@ -87,7 +87,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-xs">
-            © {currentYear} LatamFi. Todos los derechos reservados.
+            © {currentYear} LANA.celo. Todos los derechos reservados.
           </p>
           <div className="flex items-center gap-6">
             <span className="text-gray-500 text-xs flex items-center gap-1">

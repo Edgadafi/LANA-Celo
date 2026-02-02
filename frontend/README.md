@@ -1,6 +1,6 @@
-# LatamFi Frontend
+# LANA.celo Frontend
 
-Frontend de LatamFi construido con Next.js 14, TypeScript, TailwindCSS y Wagmi/Viem para integración con Celo blockchain.
+Frontend de LANA.celo construido con Next.js 14, TypeScript, TailwindCSS y Wagmi/Viem para integración con Celo blockchain.
 
 ## 🚀 Stack Tecnológico
 
@@ -62,7 +62,7 @@ NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here
 # Application Configuration
 # ============================================
 # Application name (used in metadata, manifest, etc.)
-NEXT_PUBLIC_APP_NAME=LatamFi
+NEXT_PUBLIC_APP_NAME=LANA.celo
 # Application URL (used for Open Graph, canonical URLs, etc.)
 # Development: http://localhost:3000
 # Production: https://your-domain.com
@@ -86,7 +86,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 - `NEXT_PUBLIC_CUSD_ADDRESS` - Dirección del contrato cUSD
 
 **Opcionales:**
-- `NEXT_PUBLIC_APP_NAME` - Por defecto: "LatamFi"
+- `NEXT_PUBLIC_APP_NAME` - Por defecto: "LANA.celo"
 - `NEXT_PUBLIC_APP_URL` - Por defecto: "http://localhost:3000"
 - `NEXT_PUBLIC_CEUR_ADDRESS` - Solo si usas cEUR
 - `NEXT_PUBLIC_CREAL_ADDRESS` - Solo si usas cREAL

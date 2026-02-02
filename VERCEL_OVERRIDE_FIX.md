@@ -8,7 +8,7 @@ Los campos en Build & Development Settings están vacíos, pero los botones **"O
 
 ### Paso 1: Desactivar Todos los Botones Override
 
-1. Ve a: https://vercel.com/edgadafis-projects/latamfi/settings
+1. Ve a: https://vercel.com/edgadafis-projects/lana-celo/settings
 2. Ve a **General** → **Build & Development Settings**
 3. Para cada campo, **DESACTIVA el botón "Override"** (toggle switch):
 
@@ -83,9 +83,9 @@ Después de desactivar los Overrides y redesplegar:
    - ✅ `Running "build" command: npm run build...` (sin `cd frontend`)
    - ✅ Build exitoso
 
-3. **Abre la URL**: `https://latamfi.vercel.app`
+3. **Abre la URL**: `https://lana-celo.vercel.app`
 4. **Deberías ver**:
-   - ✅ La landing page de LatamFi
+   - ✅ La landing page de LANA Celo
    - ✅ NO 404
 
 ## Si el Problema Persiste

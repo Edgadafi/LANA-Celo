@@ -9,51 +9,40 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        latamfi: {
-          dark: "#0A1628",
-          darkAlt: "#1a2332",
-          green: "#35D07F",
-          white: "#FFFFFF",
-          light: "#FBFFFE",
-        },
-        celo: {
-          green: "#35D07F",
-          dark: "#0D2818",
-          light: "#FBFFFE",
-        },
+        prosperity: "#35D07F",
+        forest: "#185834",
+        snow: "#F9FBF9",
+        honey: "#FBCC5C",
+        "celo-green": "#35D07F",
+        "celo-dark": "#0A1628",
+        "celo-darkAlt": "#1a2332",
         primary: {
-          50: "#f0fdf4",
-          100: "#dcfce7",
-          200: "#bbf7d0",
-          300: "#86efac",
-          400: "#4ade80",
           500: "#35D07F",
-          600: "#16a34a",
-          700: "#15803d",
-          800: "#166534",
-          900: "#14532d",
+          600: "#2db86b",
         },
       },
       fontFamily: {
-        sans: ["var(--font-plus-jakarta-sans)", "system-ui", "sans-serif"],
+        montserrat: ["var(--font-montserrat)", "sans-serif"],
+        lora: ["var(--font-lora)", "serif"],
       },
-      fontSize: {
-        "tagline": ["3.5rem", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "800" }],
-        "h1": ["3.5rem", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "800" }],
-        "h2": ["2.5rem", { lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "700" }],
-        "body": ["1.125rem", { lineHeight: "1.75", fontWeight: "400" }],
+      borderRadius: {
+        "soft-xl": "1.5rem",
+        "soft-2xl": "2rem",
+        "soft-3xl": "2.5rem",
+        "soft-[2.5rem]": "2.5rem",
       },
-      screens: {
-        'xs': '475px',
-        'sm': '640px',
-        'md': '768px',
-        'lg': '1024px',
-        'xl': '1280px',
-        '2xl': '1536px',
+      boxShadow: {
+        soft: "0 4px 20px rgba(0, 0, 0, 0.06)",
+        "soft-lg": "0 8px 30px rgba(0, 0, 0, 0.08)",
+        glass: "0 8px 32px rgba(0, 0, 0, 0.08)",
+      },
+      backgroundImage: {
+        "gradient-soft":
+          "linear-gradient(135deg, rgba(249,251,249,0.95) 0%, rgba(249,251,249,0.85) 100%)",
       },
     },
   },
   plugins: [],
 };
-export default config;
 
+export default config;

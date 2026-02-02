@@ -1,6 +1,6 @@
-# 🚀 Guía: Crear y Desplegar LatamFi en Vercel
+# 🚀 Guía: Crear y Desplegar LANA Celo en Vercel
 
-Esta guía te llevará paso a paso para crear un nuevo proyecto en Vercel con el nombre **LatamFi** y desplegar la landing page.
+Esta guía te llevará paso a paso para crear un nuevo proyecto en Vercel con el nombre **LANA Celo** y desplegar la landing page.
 
 ## 📋 Paso 1: Preparar el Repositorio
 
@@ -13,7 +13,7 @@ git status
 
 # Si hay cambios sin commitear, haz commit
 git add .
-git commit -m "feat: Complete LatamFi rebranding and landing page"
+git commit -m "feat: Complete LANA Celo rebranding and landing page"
 
 # Push al repositorio remoto
 git push origin main
@@ -55,7 +55,7 @@ enerpay/
 ### 2.3 Configurar el Proyecto
 
 **Nombre del Proyecto:**
-- **Project Name**: `LatamFi` (o `latamfi` - Vercel convertirá a minúsculas)
+- **Project Name**: `LANA Celo` (o `lana-celo` - Vercel convertirá a minúsculas)
 
 **Framework Preset:**
 - Vercel debería detectar automáticamente **Next.js**
@@ -94,7 +94,7 @@ Agrega las siguientes variables (haz clic en **Add New** para cada una):
 
 #### Variable 1: App Name
 - **Name**: `NEXT_PUBLIC_APP_NAME`
-- **Value**: `LatamFi`
+- **Value**: `LANA Celo`
 - **Environments**: ✅ Production, ✅ Preview, ✅ Development
 
 #### Variable 2: Celo RPC URL
@@ -134,12 +134,12 @@ Después de agregar cada variable, haz clic en **Save**. Verás todas las variab
 ### 4.2 Configurar el Proyecto
 
 Completa el formulario:
-- **Project Name**: `LatamFi`
-- **Homepage URL**: `https://latamfi.vercel.app` (o el dominio que Vercel te asignó)
+- **Project Name**: `LANA Celo`
+- **Homepage URL**: `https://lana-celo.vercel.app` (o el dominio que Vercel te asignó)
 - **Allowed Domains**: 
   - `localhost:3000` (para desarrollo local)
   - `*.vercel.app` (para previews de Vercel)
-  - `latamfi.vercel.app` (tu dominio de producción)
+  - `lana-celo.vercel.app` (tu dominio de producción)
   - Agrega cualquier otro dominio que uses
 
 ### 4.3 Copiar Project ID
@@ -192,7 +192,7 @@ Después de configurar las variables de entorno, necesitas redesplegar:
 
 ```bash
 cd /home/edgadafi/enerpay
-git commit --allow-empty -m "chore: trigger redeploy for LatamFi"
+git commit --allow-empty -m "chore: trigger redeploy for LANA Celo"
 git push origin main
 ```
 
@@ -211,7 +211,7 @@ Vercel detectará automáticamente el push y creará un nuevo deployment.
 ### 7.2 Verificar la Aplicación
 
 1. Haz clic en el deployment
-2. Haz clic en el dominio (ej: `latamfi.vercel.app`)
+2. Haz clic en el dominio (ej: `lana-celo.vercel.app`)
 3. Verifica que:
    - La landing page carga correctamente
    - El hero section se ve bien
@@ -231,13 +231,13 @@ Vercel detectará automáticamente el push y creará un nuevo deployment.
 ### 8.1 Agregar Dominio
 
 1. Ve a **Settings** → **Domains**
-2. Ingresa tu dominio (ej: `latamfi.com`)
+2. Ingresa tu dominio (ej: `lana-celo.com`)
 3. Sigue las instrucciones para configurar DNS
 
 ### 8.2 Actualizar WalletConnect
 
 1. Ve a [cloud.walletconnect.com](https://cloud.walletconnect.com)
-2. Selecciona tu proyecto LatamFi
+2. Selecciona tu proyecto LANA Celo
 3. Agrega el nuevo dominio a **Allowed Domains**
 4. Actualiza **Homepage URL** si es necesario
 
@@ -247,10 +247,10 @@ Vercel detectará automáticamente el push y creará un nuevo deployment.
 
 Antes de considerar el deployment completo, verifica:
 
-- [ ] Proyecto creado en Vercel con nombre "LatamFi"
+- [ ] Proyecto creado en Vercel con nombre "LANA Celo"
 - [ ] Root Directory configurado como `frontend`
 - [ ] Variables de entorno agregadas:
-  - [ ] `NEXT_PUBLIC_APP_NAME=LatamFi`
+  - [ ] `NEXT_PUBLIC_APP_NAME=LANA Celo`
   - [ ] `NEXT_PUBLIC_CELO_RPC_URL`
   - [ ] `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID`
 - [ ] WalletConnect Project ID obtenido y configurado
@@ -294,7 +294,7 @@ Antes de considerar el deployment completo, verifica:
 
 **Solución**:
 1. Ve a [cloud.walletconnect.com](https://cloud.walletconnect.com)
-2. Selecciona tu proyecto LatamFi
+2. Selecciona tu proyecto LANA Celo
 3. Ve a **Project Settings** → **Allowed Domains**
 4. Agrega todos los dominios necesarios:
    - `localhost:3000`
@@ -324,8 +324,8 @@ Antes de considerar el deployment completo, verifica:
 
 ## 🎉 ¡Listo!
 
-Una vez completados todos los pasos, tu landing page de LatamFi estará desplegada y accesible en:
-- **URL de Producción**: `https://latamfi.vercel.app` (o tu dominio personalizado)
+Una vez completados todos los pasos, tu landing page de LANA Celo estará desplegada y accesible en:
+- **URL de Producción**: `https://lana-celo.vercel.app` (o tu dominio personalizado)
 
-**¡Felicitaciones! Tu proyecto LatamFi está listo para el Buildathon 2026! 🚀**
+**¡Felicitaciones! Tu proyecto LANA Celo está listo para el Buildathon 2026! 🚀**
 

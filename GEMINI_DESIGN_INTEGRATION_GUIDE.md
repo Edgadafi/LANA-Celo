@@ -13,7 +13,7 @@ frontend/
 │   │   ├── globals.css               # Estilos globales
 │   │   └── [otras páginas]/
 │   ├── components/                   # Componentes React
-│   │   ├── Logo.tsx                  # Logo de LatamFi
+│   │   ├── Logo.tsx                  # Logo de LANA Celo
 │   │   ├── hero/
 │   │   │   └── HeroSection.tsx       # Sección hero
 │   │   └── landing/                  # Componentes de landing
@@ -33,7 +33,7 @@ frontend/
 ### Prompt Inicial para Gemini
 
 ```
-Diseña una landing page moderna para LatamFi, una plataforma de inclusión financiera 
+Diseña una landing page moderna para LANA Celo, una plataforma de inclusión financiera 
 para LATAM en Celo blockchain.
 
 Requisitos:
@@ -41,7 +41,7 @@ Requisitos:
 - Acentos en verde Celo (#35D07F)
 - Tagline: "¡Envía, Paga, Crece!"
 - Descripción: "Remesas, Servicios, Crédito. Comisiones Ultra Bajos."
-- Logo: Diseño moderno para LatamFi (sin rayo)
+- Logo: Diseño moderno para LANA Celo (sin rayo)
 - Botón CTA: "Conectar Wallet"
 - Badge: "Potenciado por Celo"
 
@@ -122,10 +122,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        latamfi: {
+        lana: {
           dark: "#0A1628",        // Color de fondo oscuro
           darkAlt: "#1a2332",     // Variante de fondo
-          green: "#35D07F",        // Verde Celo
+          green: "#35D07F",       // Verde Celo (Prosperity Green)
           white: "#FFFFFF",
           light: "#FBFFFE",
         },
@@ -250,7 +250,7 @@ export function HeroSection() {
 ### Para Diseño Completo
 
 ```
-Diseña una landing page moderna para LatamFi con las siguientes especificaciones:
+Diseña una landing page moderna para LANA Celo con las siguientes especificaciones:
 
 CONTEXTO:
 - Plataforma de inclusión financiera para LATAM
@@ -264,7 +264,7 @@ REQUISITOS TÉCNICOS:
 - Responsive: Mobile-first
 
 ELEMENTOS NECESARIOS:
-1. Logo moderno (sin rayo, representando LatamFi)
+1. Logo moderno (sin rayo, representando LANA Celo)
 2. Hero Section con:
    - Tagline: "¡Envía, Paga, Crece!"
    - Descripción: "Remesas, Servicios, Crédito. Comisiones Ultra Bajos."
@@ -284,7 +284,7 @@ PROPORCIONA:
 ### Para Componente Específico
 
 ```
-Diseña el [COMPONENTE] para LatamFi con:
+Diseña el [COMPONENTE] para LANA Celo con:
 
 ESPECIFICACIONES:
 - [Detalles del componente]
@@ -351,7 +351,7 @@ PROPORCIONA:
 ### 1. Obtener Diseño de Gemini
 
 ```
-Prompt: "Diseña el Hero Section para LatamFi con fondo oscuro, 
+Prompt: "Diseña el Hero Section para LANA Celo con fondo oscuro, 
 tagline '¡Envía, Paga, Crece!' claramente visible, y botón CTA verde."
 ```
 

@@ -1,7 +1,7 @@
 {
-  "name": "LatamFi - Financial Inclusion for LATAM",
-  "short_name": "LatamFi",
-  "description": "¡Envía, Paga, Crece! Remesas, Servicios, Crédito. Comisiones Ultra Bajos. Potenciado por Celo",
+  "name": "LANA.celo - Cobros e inclusión financiera para emprendedoras",
+  "short_name": "LANA.celo",
+  "description": "Cobros seguros al instante, a la voz y con comisiones ultra bajas. Potenciado por Celo",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FBFFFE",

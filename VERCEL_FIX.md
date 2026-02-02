@@ -19,7 +19,7 @@ Esto indica que Vercel estaba buscando en `frontend/frontend` en lugar de solo `
 ## Próximos Pasos
 
 1. **Verificar Root Directory en Vercel**:
-   - Ve a: https://vercel.com/edgadafis-projects/latamfi/settings
+   - Ve a: https://vercel.com/edgadafis-projects/lana-celo/settings
    - En "General" → "Root Directory", debe decir: `frontend`
    - Si no está configurado, configúralo y guarda
 

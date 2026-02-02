@@ -1,14 +1,14 @@
-# LatamFi Smart Contracts
+# LANA Celo Smart Contracts
 
-Smart contracts para LatamFi en Celo blockchain.
+Smart contracts para LANA Celo en Celo blockchain.
 
-**Nota:** Los contratos están desplegados en Mainnet con los nombres `EnerpayRemittance` y `MicrofinancePool`. Estos nombres se mantienen para compatibilidad, pero la documentación y comentarios han sido actualizados para reflejar el rebranding a LatamFi.
+**Nota:** Los contratos están desplegados en Mainnet con los nombres `EnerpayRemittance` y `MicrofinancePool`. Estos nombres se mantienen para compatibilidad, pero la documentación y comentarios han sido actualizados para reflejar el rebranding a LANA Celo.
 
 ## 📋 Contratos
 
 ### EnerpayRemittance.sol
 
-Contrato principal para manejo de remesas usando cUSD (LatamFi Remittances).
+Contrato principal para manejo de remesas usando cUSD (LANA Celo Remittances).
 
 **Características:**
 - Envío de remesas con fees de plataforma (1.5% por defecto)

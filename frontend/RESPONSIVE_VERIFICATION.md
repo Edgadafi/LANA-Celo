@@ -1,4 +1,4 @@
-# 📱 Verificación de Responsividad - LatamFi Landing Page
+# 📱 Verificación de Responsividad - LANA Celo Landing Page
 
 Este documento verifica que todas las secciones de la landing page funcionan correctamente en diferentes breakpoints.
 

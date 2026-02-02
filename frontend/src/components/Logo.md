@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Logo component is a flexible, animated logo component for LatamFi with multiple variants and customization options.
+The Logo component is a flexible, animated logo component for LANA.celo with multiple variants and customization options.
 
 ## Usage
 
@@ -51,7 +51,7 @@ Shows only the "L" with growth arrow icon.
 ```
 
 ### Text Only
-Shows only "LatamFi" text.
+Shows only "LANA.celo" text.
 
 ```tsx
 <Logo variant="textOnly" />

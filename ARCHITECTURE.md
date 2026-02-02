@@ -1,12 +1,12 @@
-# 🏗️ LatamFi Technical Architecture
+# 🏗️ LANA Celo Technical Architecture
 
-> Deep dive into the technical design and implementation of LatamFi
+> Deep dive into the technical design and implementation of LANA Celo
 
 ---
 
 ## Overview
 
-LatamFi is built as a **mobile-first, decentralized financial platform** with three main layers:
+LANA Celo is built as a **mobile-first, decentralized financial platform** with three main layers:
 
 1. **Frontend Layer** - Next.js PWA with wallet integration
 2. **Smart Contract Layer** - Solidity contracts on Celo

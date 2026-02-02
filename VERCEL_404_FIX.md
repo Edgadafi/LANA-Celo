@@ -2,7 +2,7 @@
 
 ## Problema
 
-El deployment está **Ready** pero muestra **404 NOT_FOUND** al abrir `latamfi.vercel.app`.
+El deployment está **Ready** pero muestra **404 NOT_FOUND** al abrir `lana-celo.vercel.app`.
 
 ## Causa
 
@@ -12,7 +12,7 @@ Esto generalmente se debe a que el **Output Directory** no está configurado cor
 
 ### Paso 1: Verificar Output Directory en Vercel Dashboard
 
-1. Ve a: https://vercel.com/edgadafis-projects/latamfi/settings
+1. Ve a: https://vercel.com/edgadafis-projects/lana-celo/settings
 2. Ve a la sección **General** → **Build & Development Settings**
 3. Busca **Output Directory**
 
@@ -70,9 +70,9 @@ Next.js (auto-detectado)
 Después de configurar el Output Directory como `.next` y redesplegar:
 
 1. **Espera a que el build complete** (2-5 minutos)
-2. **Abre la URL**: `https://latamfi.vercel.app`
+2. **Abre la URL**: `https://lana-celo.vercel.app`
 3. **Deberías ver**:
-   - ✅ La landing page de LatamFi
+   - ✅ La landing page de LANA Celo
    - ✅ Hero section con fondo oscuro
    - ✅ Todas las secciones funcionando
 

@@ -20,7 +20,7 @@ Running "install" command: `npm install --legacy-peer-deps`...
 
 ### Paso 1: Verificar Build & Development Settings
 
-1. Ve a: https://vercel.com/edgadafis-projects/latamfi/settings
+1. Ve a: https://vercel.com/edgadafis-projects/lana-celo/settings
 2. Ve a la sección **General** → **Build & Development Settings**
 3. Verifica estos campos:
 
@@ -107,7 +107,7 @@ Error: No Next.js version detected
 
 1. **Elimina el proyecto y créalo de nuevo:**
    - Ve a Vercel Dashboard
-   - Elimina el proyecto `latamfi`
+   - Elimina el proyecto `lana-celo` (o el nombre que tenga)
    - Crea un nuevo proyecto
    - **Configura Root Directory como `frontend` desde el inicio**
    - NO configures Build Command, Install Command, o Output Directory manualmente

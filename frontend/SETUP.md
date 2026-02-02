@@ -1,4 +1,4 @@
-# 🚀 Guía Rápida de Setup - LatamFi Frontend
+# 🚀 Guía Rápida de Setup - LANA Celo Frontend
 
 ## ⚡ Inicio Rápido (5 minutos)
 

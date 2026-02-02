@@ -25,7 +25,7 @@ Esto indica que Vercel está buscando en `frontend/frontend` en lugar de solo `f
 
 **CRÍTICO**: Debes verificar que el Root Directory esté configurado correctamente:
 
-1. Ve a: https://vercel.com/edgadafis-projects/latamfi/settings
+1. Ve a: https://vercel.com/edgadafis-projects/lana-celo/settings
 2. En la sección **General** → **Root Directory**
 3. Debe decir exactamente: `frontend` (sin espacios, sin `/` al inicio o final)
 4. Si no está configurado o dice otra cosa:

@@ -1,6 +1,6 @@
-# 📊 Analytics & Monitoring Setup - LatamFi
+# 📊 Analytics & Monitoring Setup - LANA Celo
 
-Esta guía explica cómo configurar analytics y monitoreo para LatamFi.
+Esta guía explica cómo configurar analytics y monitoreo para LANA Celo.
 
 ## 🎯 Analytics Configurados
 
@@ -104,7 +104,7 @@ trackPaymentSent("100", "0x1234...", "cUSD");
    ```typescript
    // Integrar con servicio de email
    await sendEmail({
-     to: "feedback@latamfi.com",
+     to: "feedback@lana-celo.com",
      subject: `Feedback: ${feedbackType}`,
      body: feedback,
    });

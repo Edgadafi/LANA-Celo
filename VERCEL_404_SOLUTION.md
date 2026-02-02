@@ -12,7 +12,7 @@ Esto indica que Vercel no está encontrando o sirviendo los archivos generados c
 
 ### Paso 1: Verificar Root Directory
 
-1. Ve a: https://vercel.com/edgadafis-projects/latamfi/settings
+1. Ve a: https://vercel.com/edgadafis-projects/lana-celo/settings
 2. En **General** → **Root Directory**
 3. Debe decir exactamente: `frontend`
 4. Si no está configurado, configúralo como `frontend` y guarda
@@ -84,9 +84,9 @@ Después de limpiar la configuración y redesplegar:
    - ✅ `✓ Generating static pages (10/10)`
    - ✅ Build exitoso
 
-3. **Abre la URL**: `https://latamfi.vercel.app`
+3. **Abre la URL**: `https://lana-celo.vercel.app`
 4. **Deberías ver**:
-   - ✅ La landing page de LatamFi
+   - ✅ La landing page de LANA Celo
    - ✅ Hero section con fondo oscuro
    - ✅ Todas las secciones funcionando
    - ✅ NO 404

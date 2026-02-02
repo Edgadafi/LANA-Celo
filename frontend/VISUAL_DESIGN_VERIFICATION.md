@@ -1,4 +1,4 @@
-# 🎨 Verificación de Diseño Visual - LatamFi Landing Page
+# 🎨 Verificación de Diseño Visual - LANA Celo Landing Page
 
 Este documento verifica que el diseño visual coincide con las especificaciones de Gemini y que el texto no se ve borroso.
 
@@ -62,9 +62,9 @@ Este documento verifica que el diseño visual coincide con las especificaciones 
 
 ### Paleta de Colores
 **Verificaciones:**
-- ✅ **Background principal:** `#0A1628` (latamfi-dark)
-- ✅ **Background secundario:** `#1a2332` (latamfi-darkAlt)
-- ✅ **Color primario:** `#35D07F` (latamfi-green / celo-green)
+- ✅ **Background principal:** `#0A1628` (lana-dark / celo-dark)
+- ✅ **Background secundario:** `#1a2332` (lana-darkAlt)
+- ✅ **Color primario:** `#35D07F` (celo-green / Prosperity Green)
 - ✅ **Texto principal:** `#FFFFFF` (white)
 - ✅ **Texto secundario:** `#gray-300`, `#gray-400`
 - ✅ **Borders:** `white/5`, `white/10`

@@ -1,6 +1,6 @@
-# 🧪 Testing Guide - LatamFi Core Functionality
+# 🧪 Testing Guide - LANA Celo Core Functionality
 
-Esta guía proporciona un checklist completo para probar todas las funcionalidades core de LatamFi después del rebranding.
+Esta guía proporciona un checklist completo para probar todas las funcionalidades core de LANA Celo después del rebranding.
 
 ## 📋 Pre-requisitos
 
