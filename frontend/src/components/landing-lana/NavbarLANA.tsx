@@ -74,7 +74,7 @@ export function NavbarLANA() {
                       "hover:bg-prosperity/90 hover:shadow-soft-lg transition-all"
                     )}
                   >
-                    Conectar Wallet
+                    Empieza a Cobrar
                   </button>
                 );
               }

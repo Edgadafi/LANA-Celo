@@ -19,7 +19,7 @@ export default function RemittanceHistoryPage() {
     return (
       <div className="min-h-screen p-4 flex items-center justify-center">
         <div className="max-w-md w-full text-center">
-          <h1 className="text-2xl font-bold mb-4">Connect Wallet</h1>
+          <h1 className="text-2xl font-bold mb-4">Empieza a Cobrar</h1>
           <p className="text-gray-600 mb-6">
             Please connect your wallet to view remittance history
           </p>

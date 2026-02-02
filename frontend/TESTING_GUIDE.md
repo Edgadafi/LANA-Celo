@@ -26,7 +26,7 @@ Esta guía proporciona un checklist completo para probar todas las funcionalidad
 #### Test 1.1: Conexión Inicial
 - [ ] Abrir la aplicación en el navegador
 - [ ] Verificar que se muestra la landing page (si no está conectado)
-- [ ] Click en "Conectar Wallet" en el header
+- [ ] Click en "Empieza a Cobrar" en el header
 - [ ] Verificar que se abre el modal de RainbowKit
 - [ ] Seleccionar wallet (MetaMask, Valora, WalletConnect, etc.)
 - [ ] Aceptar conexión en la wallet

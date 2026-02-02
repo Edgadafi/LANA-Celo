@@ -99,7 +99,7 @@ export function HeroLANA() {
                       "bg-prosperity shadow-soft hover:shadow-soft-lg transition-all hover:scale-[1.02]"
                     )}
                   >
-                    Conectar Wallet
+                    Empieza a Cobrar
                   </button>
                 );
               }
