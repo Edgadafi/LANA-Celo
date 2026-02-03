@@ -33,9 +33,9 @@ export function Header({
         {title ? (
           <h1 className="text-xl font-bold flex-1 min-w-0">{title}</h1>
         ) : (
-          <div className="flex-1 min-w-0">
+          <Link href="/" className="flex-1 min-w-0 flex items-center" aria-label="Volver al inicio">
             <Logo size="md" variant="full" animated={true} />
-          </div>
+          </Link>
         )}
 
         {showConnect && (

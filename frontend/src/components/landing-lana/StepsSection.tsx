@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
@@ -92,6 +93,23 @@ export function StepsSection() {
               </p>
             </motion.article>
           ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mt-12"
+        >
+          <Link
+            href="/remittance"
+            className={cn(
+              "inline-block px-8 py-4 rounded-[2.5rem] font-montserrat font-bold text-forest",
+              "bg-prosperity text-snow shadow-soft hover:shadow-soft-lg transition-all hover:scale-[1.02]"
+            )}
+          >
+            Ir al app
+          </Link>
         </motion.div>
       </div>
     </section>

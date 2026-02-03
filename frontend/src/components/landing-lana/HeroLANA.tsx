@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -127,7 +128,7 @@ export function HeroLANA() {
               );
             }}
           </ConnectButton.Custom>
-          <a
+          <Link
             href="#pasos"
             className={cn(
               "px-8 py-4 rounded-[2.5rem] font-montserrat font-bold text-forest",
@@ -135,7 +136,16 @@ export function HeroLANA() {
             )}
           >
             Cómo funciona
-          </a>
+          </Link>
+          <Link
+            href="/remittance"
+            className={cn(
+              "px-8 py-4 rounded-[2.5rem] font-montserrat font-bold text-snow",
+              "bg-forest/90 hover:bg-forest border-2 border-forest transition-all"
+            )}
+          >
+            Ir al app
+          </Link>
         </motion.div>
       </motion.div>
 

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LogoLANA } from "./LogoLANA";
 import { cn } from "@/lib/utils";
@@ -14,8 +14,17 @@ const navLinks = [
   { href: "#faq", label: "Preguntas" },
 ];
 
+const appLinks = [
+  { href: "/remittance", label: "Remesas" },
+  { href: "/credit", label: "Microcréditos" },
+  { href: "/send", label: "Enviar dinero" },
+  { href: "/receive", label: "Recibir dinero" },
+  { href: "/pay-cfe", label: "Pagar servicios" },
+];
+
 export function NavbarLANA() {
   const [open, setOpen] = useState(false);
+  const [appMenuOpen, setAppMenuOpen] = useState(false);
 
   return (
     <motion.header
@@ -29,7 +38,7 @@ export function NavbarLANA() {
           <LogoLANA size="md" variant="dark" />
         </Link>
 
-        <ul className="hidden md:flex items-center gap-8">
+        <ul className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
             <li key={link.href}>
               <Link
@@ -40,6 +49,39 @@ export function NavbarLANA() {
               </Link>
             </li>
           ))}
+          <li className="relative">
+            <button
+              type="button"
+              onClick={() => setAppMenuOpen(!appMenuOpen)}
+              onBlur={() => setTimeout(() => setAppMenuOpen(false), 150)}
+              className="flex items-center gap-1 text-forest/80 hover:text-prosperity font-lora font-medium text-sm transition-colors"
+            >
+              Ir al app
+              <ChevronDown className={cn("w-4 h-4 transition-transform", appMenuOpen && "rotate-180")} />
+            </button>
+            <AnimatePresence>
+              {appMenuOpen && (
+                <motion.ul
+                  initial={{ opacity: 0, y: -8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -8 }}
+                  className="absolute top-full left-0 mt-2 py-2 w-48 rounded-2xl bg-white shadow-soft-lg border border-forest/10 z-50"
+                >
+                  {appLinks.map((link) => (
+                    <li key={link.href}>
+                      <Link
+                        href={link.href}
+                        className="block px-4 py-2 text-forest/80 hover:text-prosperity hover:bg-prosperity/5 font-lora text-sm transition-colors"
+                        onClick={() => setAppMenuOpen(false)}
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </AnimatePresence>
+          </li>
         </ul>
 
         <div className="flex items-center gap-3">
@@ -123,8 +165,22 @@ export function NavbarLANA() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-snow/95 backdrop-blur-xl border-t border-forest/10"
           >
-            <ul className="px-4 py-4 flex flex-col gap-2">
+            <ul className="px-4 py-4 flex flex-col gap-1">
               {navLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="block py-2 text-forest font-lora"
+                    onClick={() => setOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+              <li className="pt-3 mt-2 border-t border-forest/10">
+                <span className="block py-1 text-forest/60 font-montserrat text-xs uppercase tracking-wider">Ir al app</span>
+              </li>
+              {appLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

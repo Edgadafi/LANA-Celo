@@ -9,6 +9,7 @@ const links = [
   { href: "/credit", label: "Microcréditos" },
   { href: "/send", label: "Enviar dinero" },
   { href: "/receive", label: "Recibir dinero" },
+  { href: "/pay-cfe", label: "Pagar servicios" },
 ];
 
 export function FooterLANA() {
