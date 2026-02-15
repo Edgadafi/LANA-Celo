@@ -32,7 +32,7 @@ function HeroImage() {
     <img
       src="/images/hero-comercio.png"
       alt="Emprendedora latina cobrando con el celular en su comercio"
-      className="w-full h-full object-cover"
+      className="w-full h-full object-contain object-center"
       onError={() => setError(true)}
     />
   );
@@ -153,7 +153,7 @@ export function HeroLANA() {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        className="relative z-10 w-full max-w-md aspect-[4/3] rounded-[2.5rem] overflow-hidden shadow-soft-lg bg-prosperity/10"
+        className="relative z-10 w-full max-w-md aspect-[4/3] rounded-[2.5rem] overflow-hidden shadow-soft-lg bg-snow flex items-center justify-center"
       >
         <HeroImage />
       </motion.div>
